@@ -1,7 +1,6 @@
 const connectToMongo = require('./db');
 const cors = require('cors');
 
-
 connectToMongo();
 const express = require('express')
 const app = express()
@@ -9,7 +8,8 @@ const port = 7420
 
 app.use(express.json())
 app.use(cors());
-//avilable routes
+
+//available routes
 app.use('/api/auth', require('./routes/auth'))
 app.use('/api/accomod', require('./routes/adeaccomod'))
 app.use('/api/disaccomod', require('./routes/allaccomodations'))

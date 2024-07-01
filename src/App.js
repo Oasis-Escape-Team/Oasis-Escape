@@ -17,6 +17,7 @@ import AccommodationDetails from './Components/Showaccodetails';
 import Alert from './Components/Alert';
 import { useState } from 'react';
 import Booking from './Components/Booking';
+import Cards from './Components/Cards';
 
 function App() {
   const [alert, setAlert] = useState();

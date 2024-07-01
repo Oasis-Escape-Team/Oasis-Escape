@@ -1,12 +1,3 @@
-:root {
-  --black: #000;
-  --grey: #ddd;
-  --font-grey: #717171;
-  --white: #ffffff;
-  --theme: #ff385c;
-  --light-grey: #f7f7f7;
-}
-
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
@@ -19,15 +10,4 @@ body {
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
-}
-
-.subHeading {
-  margin: 0 auto;
-  padding-bottom: 15px;
-}
-
-.subTrendingHeading {
-  margin: 0 auto;
-  padding-top: 50px;
-  padding-bottom: 5px;
 }
