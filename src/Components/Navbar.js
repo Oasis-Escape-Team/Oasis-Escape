@@ -29,7 +29,9 @@ const Navbar = () => {
 
   return (
     <div className='navbar'>
+      <Link to={`/`}>
       <img src='/assets/airbnbLogo.png' alt='Logo' className='navbar-logo'/>
+      </Link>
       <div className='search-bar'>
         <div className='search-bar-text'>Anywhere</div>
         <div className='search-bar-text'>Any Week</div>

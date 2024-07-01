@@ -92,7 +92,7 @@ const Login = (props) => {
             </div>
           </fieldset>
 
-          <button type="submit" className="btn btn-success" style={{ width: '100%' }}>
+          <button type="submit" className="btn loginbutton" style={{ width: '100%', backgroundColor: '#ff385c',color: 'white', marginTop: '10px' }}>
             Login
           </button>
           

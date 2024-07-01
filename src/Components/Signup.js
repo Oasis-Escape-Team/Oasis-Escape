@@ -128,7 +128,7 @@ const Signup = (props) => {
             </div>
           </fieldset>
 
-          <button type="submit" className="btn btn-success mt-4" style={{ width: '100%' }}>
+          <button type="submit" className="btn btn-success mt-4" style={{ width: '100%', backgroundColor: '#ff385c',color: 'white' }}>
             Register
           </button>
 

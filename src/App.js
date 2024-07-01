@@ -33,10 +33,10 @@ function App() {
   return (
     <Router> {/* Wrap your components with Router */}
       <>
+      {/* <Alert alert={alert}/> */}
         <Navbar />
-        <Alert alert={alert}/>
-        {/* <Payment/> */}
-        <div className="container">
+        <Filter />
+        <div className="">
           <Routes>
             <Route path='/profile' element={<Profile />} />
             <Route path="/register" element={<Signup showAlert={showAlert} />} />
@@ -52,7 +52,6 @@ function App() {
            
           </Routes>
         </div>
-        <Filter />
       </>
     </Router>
   );
